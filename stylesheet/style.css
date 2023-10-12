@@ -221,9 +221,13 @@ header .header-cases {
   background-color: #e3e3e3;
   height: 230px;
 }
+.contact-banner span{
+  font-size: larger;
+}
 
 .contact-banner p {
   padding: 0 !important;
+  font-size: 17px;
 }
 
 /* case */
@@ -233,7 +237,7 @@ header .header-cases {
   text-align: center;
 }
 
-.case-vid video {
+.case-vid iframe {
   margin: 0 auto;
   display: block;
   padding: 30px 0;
