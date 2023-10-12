@@ -223,8 +223,8 @@ header .header-cases {
     color: rgb(0, 0, 0);
     text-transform: uppercase;
   }
-  .cases-link div {
-    width: calc(100% - 32px);
+  .cases-link a div {
+    width: calc(100% - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,10 +235,14 @@ header .header-cases {
     font-weight: 600;
     padding-top: 0;
   }
+  .contact-banner {
+    width:95%;
+  }
 }
 
 .contact-banner {
-  width: 100% !important;
+  width: calc(100% - 20px)!important;
+  display: block;
   text-align: center;
   padding-top: 5%;
   background-color: #e3e3e3;
