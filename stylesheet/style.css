@@ -31,9 +31,9 @@ header .header-brand {
   font-weight: 900;
   text-transform: uppercase;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
-  padding: 20px 0;
+  /*padding: 20px 0;*/
 }
 
 header nav ul {
@@ -47,6 +47,7 @@ header nav ul li {
   float: left;
   list-style: none;
   padding: 0 16px;
+  margin-top: -12px;
 }
 
 header nav ul li a {
@@ -72,6 +73,9 @@ header .header-cases {
   header nav ul {
     margin: 20px 0 0 22px;
     float: left;
+  }
+  header nav ul li{
+    margin-top: 0;
   }
 
   header nav ul li a {
@@ -214,6 +218,25 @@ header .header-cases {
   color: #111;
 }
 
+@media screen and (max-width: 800px){
+  .cases-link h2 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+  }
+  .cases-link div {
+    width: calc(100% - 32px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cases-link div p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 0;
+  }
+}
+
 .contact-banner {
   width: 100% !important;
   text-align: center;
@@ -258,7 +281,20 @@ header .header-cases {
   text-align: center;
   padding-bottom: 10px;
 }
-
+@media screen and (max-width: 800px){
+  .case-vid iframe {
+    width:95%;
+    display: block;
+    padding: 30px 0;
+  }
+  .case-vid article p {
+    
+    column-count: 1;
+    margin:0 10px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+}
 /* gallery */
 
 .gallery-links-h2 {
