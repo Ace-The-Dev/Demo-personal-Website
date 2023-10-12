@@ -224,7 +224,7 @@ header .header-cases {
     text-transform: uppercase;
   }
   .cases-link a div {
-    width: calc(100% - 10px);
+    width: 97%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,6 +237,7 @@ header .header-cases {
   }
   .contact-banner {
     width:95%;
+    margin:0 auto;
   }
 }
 
